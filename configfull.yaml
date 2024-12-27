@@ -187,7 +187,7 @@ rule-providers:
   private_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   mapleuse: {!!merge <<: *class, url: "https://raw.githubusercontent.com/Maplestoryx/Mihomolist/refs/heads/main/mapleuse.list"}
   proxylite: {!!merge <<: *class, url: "https://raw.githubusercontent.com/Maplestoryx/Mihomolist/refs/heads/main/ProxyLite.list"}
-  ai: {!!merge <<: *class, url: "https://raw.githubusercontent.com/Maplestoryx/Mihomolist/refs/heads/main/ProxyLite.list"}
+  ai: {!!merge <<: *class, url: "https://raw.githubusercontent.com/Maplestoryx/Mihomolist/refs/heads/main/AI.list"}
   youtube_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
   github_domain: {!!merge <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
